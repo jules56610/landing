@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Vente d'appartement et maison immobilier</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Entête de la page -->
+  <header>
+    <h1>Vente d'appartement et maison immobilier</h1>
+    <nav>
+      <ul>
+        <li><a href="#">Accueil</a></li>
+        <li><a href="#">À propos</a></li>
+        <li><a href="#">Nos biens</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Section principale de la page -->
+  <main>
+    <h2>Nos biens immobiliers</h2>
+    <ul>
+      <li>
+        <div class="bien-immobilier">
+          <img src="https://picsum.photos/500/300?random=1" alt="Appartement 1">
+          <h3>Appartement 1</h3>
+          <p>Prix: 250 000 €</p>
+          <a href="#">En savoir plus</a>
+        </div>
+      </li>
+      <li>
+        <div class="bien-immobilier">
+          <img src="https://picsum.photos/500/300?random=2" alt="Appartement 2">
+          <h3>Appartement 2</h3>
+          <p>Prix: 320 000 €</p>
+          <a href="#">En savoir plus</a>
+        </div>
+      </li>
+      <li>
+        <div class="bien-immobilier">
+          <img src="https://picsum.photos/500/300?random=3" alt="Maison 1">
+          <h3>Maison 1</h3>
+          <p>Prix: 420 000 €</p>
+          <a href="#">En savoir plus</a>
+        </div>
+      </li>
+      <li>
+        <div class="bien-immobilier">
+          <img src="https://picsum.photos/500/300?random=4" alt="Maison 2">
+          <h3>Maison 2</h3>
+          <p>Prix: 550 000 €</p>
+          <a href="#">En savoir plus</a>
+        </div>
+      </li>
+    </ul>
+  </main>
+
+  <!-- Pied de page de la page -->
+  <footer>
+    <p>© 2023 Vente d'appartement et maison immobilier. Tous droits réservés.</p>
+  </footer>
+
+</body>
+</html>
